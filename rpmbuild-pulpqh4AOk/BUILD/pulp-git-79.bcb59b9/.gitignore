@@ -1,0 +1,29 @@
+*svn*
+*.ipynb
+*.pyc
+.project
+.pydevproject
+*.swp
+*.swo
+build
+dist
+*.egg-info
+.settings
+*.wpr
+*.wpu
+.idea
+.coverage
+cover
+docs/_build
+.DS_Store
+*,cover
+tags
+
+# Ninja IDE
+*.nja
+
+# Sublime
+.codeintel
+
+# Don't include the Django settings file
+server/pulp/server/webservices/settings.py
